@@ -4,7 +4,7 @@ A collection of simple scripts that I've collected over the years for various pu
 
 h2. retrograde.sh
 
-This is a simple shell script that will remove all identities stored by the current user's ssh-agent regardless of whether or not =$SSH_AUTH_SOCK= is actually set in the environment. I use it in conjunction with "SleepWatcher":http://www.bernhard-baehr.de/ to automatically forget my ssh keys when my MacBook goes to sleep.
+This is a simple shell script that will remove all identities stored by the current user's ssh-agent regardless of whether or not @$SSH_AUTH_SOCK@ is actually set in the environment. I use it in conjunction with "SleepWatcher":http://www.bernhard-baehr.de/ to automatically forget my ssh keys when my MacBook goes to sleep.
 
 h2. License
 
