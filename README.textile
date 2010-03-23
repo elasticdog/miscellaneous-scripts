@@ -2,9 +2,9 @@ h1. Miscellaneous Scripts
 
 A collection of simple scripts that I've collected over the years for various purposes. You never know what you might find...
 
-h2. retrograde.sh
+h2. @retrograde.sh@
 
-This is a shell script that will remove all identities stored by the current user's ssh-agent regardless of whether or not @$SSH_AUTH_SOCK@ is actually set in the environment. I use it in conjunction with "SleepWatcher":http://www.bernhard-baehr.de/ to automatically forget my ssh keys when my MacBook goes to sleep.
+Retrograde is a shell script that will remove all identities stored by the current user's ssh-agent regardless of whether or not @$SSH_AUTH_SOCK@ is actually set in the environment. I use it in conjunction with "SleepWatcher":http://www.bernhard-baehr.de/ to automatically forget my ssh keys when my MacBook goes to sleep.
 
 h2. License
 
